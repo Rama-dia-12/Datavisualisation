@@ -610,7 +610,7 @@ puis en voici un extrait après les modifications mentionnées plus haut sur Ope
 
    **b. Grid of pie charts: Répartition par année des plus gros succès et de leur chiffres au box office**
    
-<iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='yes' style='width:200%;height:1500px;'></iframe>
+<iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='yes' style='width:100%;height:600px;'></iframe>
 
   
    **c. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
