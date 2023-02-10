@@ -379,7 +379,7 @@ J'ai donc utilisé la fonction `value.datePart("year")` pour extraire et affiche
 Voici le jeu de données tel qu'il était en accès libre,
 puis en voici un extrait après les modifications mentionnées plus haut sur OpenRefine:
 
-<table width="600" height="400" frameborder ="0">
+<table width="600" height="450" frameborder ="0">
 <tr>
 <th>Mis à jour le 22 juin 2022</th>
 <tr><td>Les plus grands succès du cinéma depuis 1945</td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -590,7 +590,7 @@ puis en voici un extrait après les modifications mentionnées plus haut sur Ope
 
 
 <meta charset= "utf-8" />
-<table width="600" height="400" frameborder ="0">
+<table width="600" height="450" frameborder ="0">
 <tr><th>Rang</th><th>Titre</th><th>réalisateur</th><th>année de sortie</th><th>nationalité</th><th>nombre d'entrées en millions</th></tr>
 <tr><td>1</td><td>Titanic</td><td>J. Cameron</td><td>1998</td><td>US</td><td>21798906</td></tr>
 <tr><td>2</td><td>Bienvenue chez les Ch&apos;tis</td><td>D. Boon</td><td>2008</td><td>FR</td><td>20444918</td></tr>
@@ -604,18 +604,18 @@ puis en voici un extrait après les modifications mentionnées plus haut sur Ope
 **2) Visualisations**
 
  
- **a. Scattered dots des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021**
+**a. Scattered dots des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021**
 
 <iframe src='https://public.flourish.studio/visualisation/12691863/embed' title='Score réalisés par les films les plus populaires au cinéma en France de 1945 à 2021' frameborder='0' scrolling='no' style='width:100%;height:450px;'></iframe>
 
- **b. Pie charts: Répartition par année des plus gros succès et de leur chiffres au box office**
+**b. Pie charts: Répartition par année des plus gros succès et de leur chiffres au box office**
  
    
-<iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='yes' style='width:100%;height:450px;'></iframe>
+<iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='no' style='width:100%;height:450px;'></iframe>
 
   
  
- **c. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
+**c. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
  
     
 <iframe src='https://public.flourish.studio/visualisation/12706313/embed' title='Vision globale des réalisateurs et des performances de leurs films' frameborder='0' scrolling='no' style='width:100%;height:800px;'></iframe>
@@ -626,7 +626,7 @@ puis en voici un extrait après les modifications mentionnées plus haut sur Ope
    
 L'analyse de ces données laisse clairement transparaître l'enthousiasme des français pour le grand écran, tant du côté des spectateurs que de celui des créateurs. Cependant, elle soulève également d'autres questions. On pourrait par exemple se demander ce qu'il en est du succès - ou non - du cinéma français contemporain à l'international, en compaaison avec les autres pays. Pour obtenir des données pertinentes à ce sujet, il a fallu interroger la base de données Wikidata. J'ai formulé la requête suivante :
 
- ```SPARQL
+```SPARQL
 
 #création de colonnes qui renseignent : le pays d'origine, les chiffres au box office, ainsi que les noms de ces films
 SELECT DISTINCT ?item ?origincountry ?boxoffice ?name  WHERE {
