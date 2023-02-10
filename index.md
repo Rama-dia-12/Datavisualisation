@@ -448,5 +448,8 @@ La visualisation en bar chart laisse transparaître la dominance écrasante des 
 
 Ce projet a été intéressant bien que chronophage et complexe. L'analyse de ces données a été enrichissante en ce qu'elle a été l'occasion de se rendre compte de la conséquence du marché du cinéma. Il engage des chiffres astronomiques qu'ils s'agissent des recettes, qui se comptent en milliards, ou des fréquentations des salles, rien que sur l'échelle d'un seul pays.
 
+
+
+
 [^1]: [Wikipédia](https://fr.wikipedia.org/wiki/Cin%C3%A9ma_fran%C3%A7ais#Exploitation)
 
