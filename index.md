@@ -376,11 +376,218 @@ Afin de pouvoir l'exploiter, j'ai dû procéder à un nettoyage de ce fichier xl
 
 J'ai donc utilisé la fonction `value.datePart("year")` pour extraire et afficher uniquement l'année.
 
-Voici le jeu de données tel qu'il était en accès libre :
+Voici le jeu de données tel qu'il était en accès libre,
+puis en voici un extrait après les modifications mentionnées plus haut sur OpenRefine:
 
-<iframe src="https://www.data.gouv.fr/fr/datasets/r/73d60fd5-c1f3-4a59-8d82-bd06d4afd077" width="850" height="600" frameborder="0"></iframe> 
+<table width="600" height="450" frameborder ="0">
+<tr>
+<th>Mis à jour le 22 juin 2022</th>
+<tr><td>Les plus grands succès du cinéma depuis 1945</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>rang</td><td>titre</td><td>réalisateur</td><td>année de sortie</td><td>nationalité1</td><td>entrées (millions)2</td></tr>
+<tr><td>1.0</td><td>Titanic</td><td>J. Cameron</td><td>1998.0</td><td>US</td><td>2.1798906E7</td></tr>
+<tr><td>2.0</td><td>Bienvenue chez les Ch&apos;tis</td><td>D. Boon</td><td>2008.0</td><td>FR</td><td>2.0444918E7</td></tr>
+<tr><td>3.0</td><td>Intouchables</td><td>E. Tolédano, O. Nakache</td><td>2011.0</td><td>FR</td><td>1.9509835E7</td></tr>
+<tr><td>4.0</td><td>La Grande Vadrouille</td><td>G. Oury</td><td>1966.0</td><td>FR/GB</td><td>1.7330139E7</td></tr>
+<tr><td>5.0</td><td>Autant en emporte le vent</td><td>V. Fleming</td><td>1950.0</td><td>US</td><td>1.672816E7</td></tr>
+<tr><td>6.0</td><td>Il était une fois dans l&apos;Ouest</td><td>S. Leone</td><td>1969.0</td><td>IT</td><td>1.4891828E7</td></tr>
+<tr><td>7.0</td><td>Le Livre de la jungle</td><td>W. Reitherman</td><td>1968.0</td><td>US</td><td>1.4798057E7</td></tr>
+<tr><td>8.0</td><td>Avatar</td><td>J. Cameron</td><td>2009.0</td><td>US</td><td>1.4782116E7</td></tr>
+<tr><td>9.0</td><td>Les 101 Dalmatiens</td><td>W. Disney</td><td>1961.0</td><td>US</td><td>1.4697525E7</td></tr>
+<tr><td>10.0</td><td>Astérix et Obélix : mission Cléopâtre</td><td>A. Chabat</td><td>2002.0</td><td>FR</td><td>1.4408347E7</td></tr>
+<tr><td>11.0</td><td>Les Dix Commandements</td><td>C.B. DeMille</td><td>1958.0</td><td>US</td><td>1.4237371E7</td></tr>
+<tr><td>12.0</td><td>Ben Hur</td><td>W. Wyler</td><td>1960.0</td><td>US</td><td>1.385777E7</td></tr>
+<tr><td>13.0</td><td>Les Visiteurs</td><td>J.M. Poiré</td><td>1993.0</td><td>FR</td><td>1.3673172E7</td></tr>
+<tr><td>14.0</td><td>Le Pont de la rivière Kwai</td><td>D. Lean</td><td>1957.0</td><td>GB</td><td>1.3477151E7</td></tr>
+<tr><td>15.0</td><td>Cendrillon</td><td>W. Disney</td><td>1950.0</td><td>US</td><td>1.3269623E7</td></tr>
+<tr><td>16.0</td><td>Le Petit Monde de Don Camillo</td><td>J. Duvivier</td><td>1952.0</td><td>IT/FR</td><td>1.2791213E7</td></tr>
+<tr><td>17.0</td><td>Les Aristochats</td><td>W. Reitherman</td><td>1971.0</td><td>US</td><td>1.2737882E7</td></tr>
+<tr><td>18.0</td><td>Qu&apos;est-ce qu&apos;on a fait au bon dieu ?</td><td>P. De Chauveron</td><td>2014.0</td><td>FR</td><td>1.2356551E7</td></tr>
+<tr><td>19.0</td><td>Le Jour le plus long</td><td>Collectif</td><td>1962.0</td><td>US</td><td>1.193055E7</td></tr>
+<tr><td>20.0</td><td>Le Corniaud</td><td>G. Oury</td><td>1965.0</td><td>FR/IT</td><td>1.1744912E7</td></tr>
+<tr><td>21.0</td><td>La Belle et le clochard</td><td>W. Disney</td><td>1955.0</td><td>US</td><td>1.1253225E7</td></tr>
+<tr><td>22.0</td><td>Le Roi lion</td><td>R. Aller, R. Minkoff</td><td>1994.0</td><td>US</td><td>1.0747322E7</td></tr>
+<tr><td>23.0</td><td>Bambi</td><td>W. Disney</td><td>1948.0</td><td>US</td><td>1.0715149E7</td></tr>
+<tr><td>24.0</td><td>Star Wars : Episode 7, le reveil de la force</td><td>J. J. Abrams</td><td>2015.0</td><td>US</td><td>1.0345644E7</td></tr>
+<tr><td>25.0</td><td>Taxi 2</td><td>G. Krawczyk</td><td>2000.0</td><td>FR</td><td>1.0302954E7</td></tr>
+<tr><td>26.0</td><td>Trois hommes et un couffin</td><td>C. Serreau</td><td>1985.0</td><td>FR</td><td>1.0251813E7</td></tr>
+<tr><td>27.0</td><td>Les Bronzés 3 - amis pour la vie</td><td>P. Leconte</td><td>2006.0</td><td>FR</td><td>1.0229483E7</td></tr>
+<tr><td>28.0</td><td>Les Canons de Navarone</td><td>J. Lee Thompson</td><td>1961.0</td><td>US</td><td>1.0181324E7</td></tr>
+<tr><td>29.0</td><td>La Guerre des boutons</td><td>Y. Robert</td><td>1962.0</td><td>FR</td><td>1.0052423E7</td></tr>
+<tr><td>30.0</td><td>Les Misérables</td><td>J.P. Le Chanois, J.P. Dreyfus</td><td>1958.0</td><td>FR/IT</td><td>9969086.0</td></tr>
+<tr><td>31.0</td><td>Le Roi Lion</td><td>J. Favreau</td><td>2019.0</td><td>US</td><td>9848728.0</td></tr>
+<tr><td>32.0</td><td>E.T. l&apos;extra-terrestre</td><td>S. Spielberg</td><td>1982.0</td><td>US</td><td>9847614.0</td></tr>
+<tr><td>33.0</td><td>Docteur Jivago</td><td>D. Lean</td><td>1966.0</td><td>US</td><td>9817737.0</td></tr>
+<tr><td>34.0</td><td>Vingt mille lieues sous les mers</td><td>R. Fleischer</td><td>1955.0</td><td>US</td><td>9628014.0</td></tr>
+<tr><td>35.0</td><td>Harry Potter à l&apos;école des sorciers</td><td>C. Colombus</td><td>2001.0</td><td>US</td><td>9545909.0</td></tr>
+<tr><td>36.0</td><td>Sous le plus grand chapiteau du monde</td><td>C.B. DeMille</td><td>1953.0</td><td>US</td><td>9488114.0</td></tr>
+<tr><td>37.0</td><td>Le Monde de Nemo</td><td>A. Stanton, L. Unkrich</td><td>2003.0</td><td>US</td><td>9446595.0</td></tr>
+<tr><td>38.0</td><td>Le Dîner de cons</td><td>F. Veber</td><td>1998.0</td><td>FR</td><td>9249770.0</td></tr>
+<tr><td>39.0</td><td>Le Grand Bleu</td><td>L. Besson</td><td>1988.0</td><td>FR</td><td>9200891.0</td></tr>
+<tr><td>40.0</td><td>L&apos;Ours</td><td>J.J. Annaud</td><td>1988.0</td><td>FR</td><td>9138948.0</td></tr>
+<tr><td>41.0</td><td>Emmanuelle</td><td>J. Jaeckin</td><td>1974.0</td><td>FR</td><td>8894166.0</td></tr>
+<tr><td>42.0</td><td>Harry Potter et la chambre des secrets</td><td>C. Colombus</td><td>2002.0</td><td>US</td><td>8862273.0</td></tr>
+<tr><td>43.0</td><td>La Vache et le prisonnier</td><td>H. Verneuil</td><td>1959.0</td><td>FR/IT</td><td>8851261.0</td></tr>
+<tr><td>44.0</td><td>West Side Story</td><td>R. Wise, J. Robbins</td><td>1962.0</td><td>US</td><td>8780013.0</td></tr>
+<tr><td>45.0</td><td>Astérix et Obélix contre César</td><td>C. Zidi</td><td>1999.0</td><td>FR/DE/IT</td><td>8776587.0</td></tr>
+<tr><td>46.0</td><td>La Grande Evasion</td><td>R. Walsh</td><td>1963.0</td><td>US</td><td>8757609.0</td></tr>
+<tr><td>47.0</td><td>Le Bataillon du ciel</td><td>A. Esway</td><td>1947.0</td><td>FR</td><td>8649752.0</td></tr>
+<tr><td>48.0</td><td>Le Fabuleux Destin d&apos;Amélie Poulain</td><td>J.P. Jeunet</td><td>2001.0</td><td>FR/DE</td><td>8527435.0</td></tr>
+<tr><td>49.0</td><td>Les Choristes</td><td>C. Barratier</td><td>2004.0</td><td>FR/CH</td><td>8469922.0</td></tr>
+<tr><td>50.0</td><td>Le Dictateur</td><td>C. Chaplin</td><td>1945.0</td><td>US</td><td>8406911.0</td></tr>
+<tr><td>51.0</td><td>Pour qui sonne le glas ?</td><td>S. Wood</td><td>1947.0</td><td>US</td><td>8274759.0</td></tr>
+<tr><td>52.0</td><td>Rien à déclarer</td><td>D. Boon</td><td>2011.0</td><td>FR/BE</td><td>8140813.0</td></tr>
+<tr><td>53.0</td><td>Violettes impériales</td><td>R. Pottier</td><td>1952.0</td><td>FR/ES</td><td>8125846.0</td></tr>
+<tr><td>54.0</td><td>Les Couloirs du temps - les visiteurs 2</td><td>J.M. Poiré</td><td>1998.0</td><td>FR</td><td>8039466.0</td></tr>
+<tr><td>55.0</td><td>Le Boulanger de Valorgue</td><td>H. Verneuil</td><td>1953.0</td><td>FR</td><td>7889091.0</td></tr>
+<tr><td>56.0</td><td>Un Indien dans la ville</td><td>H. Palud</td><td>1994.0</td><td>FR</td><td>7887974.0</td></tr>
+<tr><td>57.0</td><td>Pinocchio</td><td>W. Disney</td><td>1946.0</td><td>US</td><td>7854113.0</td></tr>
+<tr><td>58.0</td><td>L&apos;Âge de glace 3 - le temps des dinosaures</td><td>C. Saldanha</td><td>2009.0</td><td>US</td><td>7836584.0</td></tr>
+<tr><td>59.0</td><td>Star Wars : épisode 1 - la menace fantôme</td><td>G. Lucas</td><td>1999.0</td><td>US</td><td>7835365.0</td></tr>
+<tr><td>60.0</td><td>Tarzan</td><td>C. Buck, K. Lima</td><td>1999.0</td><td>US</td><td>7822887.0</td></tr>
+<tr><td>61.0</td><td>Le Gendarme de Saint-Tropez</td><td>J. Girault</td><td>1964.0</td><td>FR/IT</td><td>7811393.0</td></tr>
+<tr><td>62.0</td><td>Le Comte de Monte Cristo</td><td>R. Vernay</td><td>1955.0</td><td>FR/IT</td><td>7780963.0</td></tr>
+<tr><td>63.0</td><td>Sixième Sens</td><td>M. Night Shyamalan</td><td>2000.0</td><td>US</td><td>7743424.0</td></tr>
+<tr><td>64.0</td><td>Ratatouille</td><td>B. Bird, J. Pinkava</td><td>2007.0</td><td>US</td><td>7727621.0</td></tr>
+<tr><td>65.0</td><td>Le Cinquième Elément</td><td>L. Besson</td><td>1997.0</td><td>FR</td><td>7713105.0</td></tr>
+<tr><td>66.0</td><td>Harry Potter et la coupe de feu</td><td>M. Newell</td><td>2005.0</td><td>GB</td><td>7712423.0</td></tr>
+<tr><td>67.0</td><td>la famille Bélier</td><td>É. Lartigau</td><td>2014.0</td><td>FR</td><td>7704036.0</td></tr>
+<tr><td>68.0</td><td>Orange mécanique</td><td>S. Kubrick</td><td>1972.0</td><td>GB</td><td>7629804.0</td></tr>
+<tr><td>69.0</td><td>La Reine des neiges 2</td><td>C. Buck, J. Lee</td><td>2019.0</td><td>US</td><td>7527360.0</td></tr>
+<tr><td>70.0</td><td>Les Bidasses en folie</td><td>C. Zidi</td><td>1971.0</td><td>FR</td><td>7460911.0</td></tr>
+<tr><td>71.0</td><td>Le Retour de Don Camillo</td><td>J. Duvivier</td><td>1953.0</td><td>IT/FR</td><td>7425550.0</td></tr>
+<tr><td>72.0</td><td>Le Seigneur des anneaux - le retour du roi</td><td>P. Jackson</td><td>2003.0</td><td>NZ</td><td>7423673.0</td></tr>
+<tr><td>73.0</td><td>La Vérité si je mens 2</td><td>T. Gilou</td><td>2001.0</td><td>FR</td><td>7407982.0</td></tr>
+<tr><td>74.0</td><td>Jour de fête</td><td>J. Tati</td><td>1949.0</td><td>FR</td><td>7402939.0</td></tr>
+<tr><td>75.0</td><td>Aladdin</td><td>J. Musker</td><td>1993.0</td><td>US</td><td>7353322.0</td></tr>
+<tr><td>76.0</td><td>Les Aventures de Peter Pan</td><td>W. Disney</td><td>1953.0</td><td>US</td><td>7347176.0</td></tr>
+<tr><td>77.0</td><td>Les Aventures de Rabbi Jacob</td><td>G. Oury</td><td>1973.0</td><td>FR/IT</td><td>7307118.0</td></tr>
+<tr><td>78.0</td><td>Danse avec les loups</td><td>K. Costner</td><td>1991.0</td><td>US</td><td>7281824.0</td></tr>
+<tr><td>79.0</td><td>Les Aventures de Bernard et Bianca</td><td>Collectif</td><td>1977.0</td><td>US</td><td>7242381.0</td></tr>
+<tr><td>80.0</td><td>Jean de Florette</td><td>C. Berri</td><td>1986.0</td><td>FR</td><td>7225184.0</td></tr>
+<tr><td>81.0</td><td>Star Wars : épisode 3 - la revanche des Sith</td><td>G. Lucas</td><td>2005.0</td><td>US</td><td>7205953.0</td></tr>
+<tr><td>82.0</td><td>Harry Potter et le prisonnier d&apos;Azkaban</td><td>A. Cuaron</td><td>2004.0</td><td>GB</td><td>7152904.0</td></tr>
+<tr><td>83.0</td><td>Shrek 2</td><td>A. Adamson, V. Jenson</td><td>2004.0</td><td>US</td><td>7142658.0</td></tr>
+<tr><td>84.0</td><td>Le Seigneur des anneaux - les deux tours</td><td>P. Jackson</td><td>2002.0</td><td>NZ</td><td>7128603.0</td></tr>
+<tr><td>85.0</td><td>Samson et Dalila</td><td>C.B. DeMille</td><td>1951.0</td><td>US</td><td>7116461.0</td></tr>
+<tr><td>86.0</td><td>Star Wars les derniers Jedi</td><td>R. Johnson</td><td>2017.0</td><td>US</td><td>7094279.0</td></tr>
+<tr><td>87.0</td><td>Jeanne d&apos;Arc</td><td>V. Fleming</td><td>1949.0</td><td>US</td><td>7092805.0</td></tr>
+<tr><td>88.0</td><td>La Chèvre</td><td>F. Veber</td><td>1981.0</td><td>FR/MX</td><td>7080976.0</td></tr>
+<tr><td>89.0</td><td>Monsieur Vincent</td><td>M. Cloche</td><td>1947.0</td><td>FR</td><td>7057022.0</td></tr>
+<tr><td>90.0</td><td>Les Sept Mercenaires</td><td>J. Sturges</td><td>1961.0</td><td>US</td><td>7044522.0</td></tr>
+<tr><td>91.0</td><td>Le Seigneur des anneaux - la communauté de l&apos;anneau</td><td>P. Jackson</td><td>2001.0</td><td>NZ</td><td>7011664.0</td></tr>
+<tr><td>92.0</td><td>Skyfall</td><td>S. Mendes</td><td>2012.0</td><td>GB</td><td>7009368.0</td></tr>
+<tr><td>93.0</td><td>Si Versailles m&apos;était conté</td><td>S. Guitry</td><td>1954.0</td><td>FR</td><td>6987432.0</td></tr>
+<tr><td>94.0</td><td>Les Grandes Vacances</td><td>J. Girault</td><td>1967.0</td><td>FR/IT</td><td>6987269.0</td></tr>
+<tr><td>95.0</td><td>Le Salaire de la peur</td><td>H.G. Clouzot</td><td>1953.0</td><td>FR/IT</td><td>6950146.0</td></tr>
+<tr><td>96.0</td><td>Michel Strogoff</td><td>C. Gallone</td><td>1956.0</td><td>FR/IT</td><td>6869247.0</td></tr>
+<tr><td>97.0</td><td>Le Gendarme se marie</td><td>J. Girault</td><td>1968.0</td><td>FR/IT</td><td>6828665.0</td></tr>
+<tr><td>98.0</td><td>Avengers : Endgame</td><td>A. Russo, J. Russo</td><td>2019.0</td><td>US</td><td>6825154.0</td></tr>
+<tr><td>99.0</td><td>Le Bossu de Notre-Dame</td><td>K. Wise, G. Trousdale</td><td>1996.0</td><td>US</td><td>6813099.0</td></tr>
+<tr><td>100.0</td><td>Astérix aux Jeux Olympiques</td><td>F. Forestier, T. Langmann</td><td>2008.0</td><td>FR/DE/ES/IT</td><td>6807835.0</td></tr>
+<tr><td>101.0</td><td>Mission spéciale</td><td>M. de Canonge</td><td>1946.0</td><td>FR</td><td>6781120.0</td></tr>
+<tr><td>102.0</td><td>Jurassic Park</td><td>S. Spielberg</td><td>1993.0</td><td>US</td><td>6755899.0</td></tr>
+<tr><td>103.0</td><td>Fanfan la Tulipe</td><td>Christian-Jaque</td><td>1952.0</td><td>FR/IT</td><td>6737998.0</td></tr>
+<tr><td>104.0</td><td>L&apos;Exorciste</td><td>W. Friedkin</td><td>1974.0</td><td>US</td><td>6727910.0</td></tr>
+<tr><td>105.0</td><td>Qu&apos;est-ce qu&apos;on a encore fait au bon dieu ?</td><td>P. de Chauveron</td><td>2019.0</td><td>FR / BE</td><td>6719759.0</td></tr>
+<tr><td>106.0</td><td>Rox et Rouky</td><td>A. Stevens</td><td>1981.0</td><td>US</td><td>6717395.0</td></tr>
+<tr><td>107.0</td><td>Goldfinger</td><td>G. Hamilton</td><td>1965.0</td><td>GB</td><td>6676568.0</td></tr>
+<tr><td>108.0</td><td>Les Trois Frères</td><td>D. Bourdon, B. Campan</td><td>1995.0</td><td>FR</td><td>6671088.0</td></tr>
+<tr><td>109.0</td><td>les Minions</td><td>P. Coffin, K. Balda</td><td>2015.0</td><td>US</td><td>6663465.0</td></tr>
+<tr><td>110.0</td><td>Nous irons à Paris</td><td>J. Boyer</td><td>1950.0</td><td>FR</td><td>6659325.0</td></tr>
+<tr><td>111.0</td><td>Manon des sources</td><td>C. Berri</td><td>1986.0</td><td>FR</td><td>6646236.0</td></tr>
+<tr><td>112.0</td><td>l&apos;Age de glace 4 : la dérive des continents</td><td>M.Thurmeier, S. Martino</td><td>2012.0</td><td>US</td><td>6642048.0</td></tr>
+<tr><td>113.0</td><td>Sissi</td><td>E. Marischka</td><td>1956.0</td><td>AT</td><td>6637836.0</td></tr>
+<tr><td>114.0</td><td>L&apos;Age de glace 2</td><td>C. Saldanha</td><td>2006.0</td><td>US</td><td>6627706.0</td></tr>
+<tr><td>115.0</td><td>Le Cercle des poètes disparus</td><td>P. Weir</td><td>1989.0</td><td>US</td><td>6601781.0</td></tr>
+<tr><td>116.0</td><td>La Belle au bois dormant</td><td>W. Disney</td><td>1959.0</td><td>US</td><td>6592751.0</td></tr>
+<tr><td>117.0</td><td>Harry Potter et les reliques de la mort - 2e partie</td><td>D. Yates</td><td>2011.0</td><td>GB</td><td>6577156.0</td></tr>
+<tr><td>118.0</td><td>Pirates des Caraïbes - le secret du coffre maudit</td><td>G. Verbinski</td><td>2006.0</td><td>US</td><td>6522015.0</td></tr>
+<tr><td>119.0</td><td>Robin des bois</td><td>W. Reitherman</td><td>1974.0</td><td>US</td><td>6485372.0</td></tr>
+<tr><td>120.0</td><td>Taxi</td><td>G. Pires</td><td>1998.0</td><td>FR</td><td>6485260.0</td></tr>
+<tr><td>121.0</td><td>Rain Man</td><td>B. Levinson</td><td>1989.0</td><td>US</td><td>6475822.0</td></tr>
+<tr><td>122.0</td><td>La Guerre des étoiles</td><td>G. Lucas</td><td>1977.0</td><td>US</td><td>6460540.0</td></tr>
+<tr><td>123.0</td><td>Sissi impératrice</td><td>E. Marischka</td><td>1957.0</td><td>AT</td><td>6429021.0</td></tr>
+<tr><td>124.0</td><td>Les Aventuriers de l&apos;arche perdue</td><td>S. Spielberg</td><td>1981.0</td><td>US</td><td>6404631.0</td></tr>
+<tr><td>125.0</td><td>Tant qu&apos;il y aura des hommes</td><td>F. Zinnemann</td><td>1954.0</td><td>US</td><td>6401375.0</td></tr>
+<tr><td>126.0</td><td>Arthur et les Minimoys</td><td>L. Besson</td><td>2006.0</td><td>FR</td><td>6400180.0</td></tr>
+<tr><td>127.0</td><td>La Cuisine au beurre</td><td>G. Grangier</td><td>1963.0</td><td>FR/IT</td><td>6397594.0</td></tr>
+<tr><td>128.0</td><td>Spider-Man</td><td>S. Raimi</td><td>2002.0</td><td>US</td><td>6382266.0</td></tr>
+<tr><td>129.0</td><td>La Symphonie pastorale</td><td>J. Delannoy</td><td>1946.0</td><td>FR</td><td>6373084.0</td></tr>
+<tr><td>130.0</td><td>Ivanhoé</td><td>R. Thorpe</td><td>1952.0</td><td>US</td><td>6362071.0</td></tr>
+<tr><td>131.0</td><td>Le Bon, la brute et le truand</td><td>S. Leone</td><td>1968.0</td><td>IT</td><td>6350067.0</td></tr>
+<tr><td>132.0</td><td>Les Dents de la mer</td><td>S. Spielberg</td><td>1976.0</td><td>US</td><td>6346372.0</td></tr>
+<tr><td>133.0</td><td>Spider-Man 3</td><td>S. Raimi</td><td>2007.0</td><td>US</td><td>6320882.0</td></tr>
+<tr><td>134.0</td><td>Quo Vadis</td><td>M. Le Roy</td><td>1953.0</td><td>US</td><td>6305624.0</td></tr>
+<tr><td>135.0</td><td>La Gloire de mon père</td><td>Y. Robert</td><td>1990.0</td><td>FR</td><td>6298736.0</td></tr>
+<tr><td>136.0</td><td>Le Gendarme et les extra-terrestres</td><td>J. Girault</td><td>1979.0</td><td>FR</td><td>6280079.0</td></tr>
+<tr><td>137.0</td><td>Indiana Jones et la dernière croisade</td><td>S. Spielberg</td><td>1989.0</td><td>US</td><td>6256297.0</td></tr>
+<tr><td>138.0</td><td>Harry Potter et l&apos;ordre du Phénix</td><td>D. Yates</td><td>2007.0</td><td>GB</td><td>6219499.0</td></tr>
+<tr><td>139.0</td><td>Marche à l&apos;ombre</td><td>M. Blanc</td><td>1984.0</td><td>FR</td><td>6168425.0</td></tr>
+<tr><td>140.0</td><td>Pas si bête</td><td>A. Berthomieu</td><td>1946.0</td><td>FR</td><td>6165419.0</td></tr>
+<tr><td>141.0</td><td>Merlin l&apos;enchanteur</td><td>W. Reitherman</td><td>1964.0</td><td>US</td><td>6160500.0</td></tr>
+<tr><td>142.0</td><td>La Chartreuse de Parme</td><td>Christian-Jaque</td><td>1948.0</td><td>FR</td><td>6152480.0</td></tr>
+<tr><td>143.0</td><td>Germinal</td><td>C. Berri</td><td>1993.0</td><td>FR/BE</td><td>6149725.0</td></tr>
+<tr><td>144.0</td><td>Harry Potter et le Prince de sang-mêlé</td><td>D. Yates</td><td>2009.0</td><td>GB</td><td>6140398.0</td></tr>
+<tr><td>145.0</td><td>Le Père tranquille</td><td>R. Clément</td><td>1946.0</td><td>FR</td><td>6139259.0</td></tr>
+<tr><td>146.0</td><td>Les Feux de la rampe</td><td>C. Chaplin</td><td>1952.0</td><td>US</td><td>6137070.0</td></tr>
+<tr><td>147.0</td><td>Oscar</td><td>E. Molinaro</td><td>1967.0</td><td>FR</td><td>6123063.0</td></tr>
+<tr><td>148.0</td><td>Taxi 3</td><td>G. Krawczyk</td><td>2003.0</td><td>FR</td><td>6108669.0</td></tr>
+<tr><td>149.0</td><td>Harry Potter et les reliques de la mort - 1re partie</td><td>D. Yates</td><td>2010.0</td><td>GB</td><td>6102789.0</td></tr>
+<tr><td>150.0</td><td>Star Wars : épisode 9, l&apos;ascension de Skywalker</td><td>J.J. Abrams</td><td>2019.0</td><td>US</td><td>6063436.0</td></tr>
+<tr><td>151.0</td><td>Terminator 2 - le jugement dernier</td><td>J. Cameron</td><td>1991.0</td><td>US</td><td>6007492.0</td></tr>
+<tr><td>152.0</td><td>Midnight Express</td><td>A. Parker</td><td>1978.0</td><td>GB</td><td>5974912.0</td></tr>
+<tr><td>153.0</td><td>Les Dieux sont tombés sur la tête</td><td>J. Uys</td><td>1983.0</td><td>ZA</td><td>5950116.0</td></tr>
+<tr><td>154.0</td><td>Mourir d&apos;aimer</td><td>A. Cayatte</td><td>1971.0</td><td>FR/IT</td><td>5912600.0</td></tr>
+<tr><td>155.0</td><td>Qui veut la peau de Roger Rabbit ?</td><td>R. Zemeckis</td><td>1988.0</td><td>US</td><td>5909001.0</td></tr>
+<tr><td>156.0</td><td>Crocodile Dundee</td><td>P. Faiman</td><td>1987.0</td><td>AU</td><td>5887982.0</td></tr>
+<tr><td>157.0</td><td>Guerre et Paix</td><td>K. Vidor</td><td>1956.0</td><td>US</td><td>5885856.0</td></tr>
+<tr><td>158.0</td><td>Les Ripoux</td><td>C. Zidi</td><td>1984.0</td><td>FR</td><td>5882397.0</td></tr>
+<tr><td>159.0</td><td>L&apos;Odyssée du Docteur Wassel</td><td>C.B. DeMille</td><td>1946.0</td><td>US</td><td>5866693.0</td></tr>
+<tr><td>160.0</td><td>Rambo 2 - la mission</td><td>G.P. Cosmatos</td><td>1985.0</td><td>US</td><td>5851440.0</td></tr>
+<tr><td>161.0</td><td>Le Bossu</td><td>A. Hunebelle</td><td>1959.0</td><td>FR/IT</td><td>5847123.0</td></tr>
+<tr><td>162.0</td><td>L&apos;Aile ou la Cuisse</td><td>C. Zidi</td><td>1976.0</td><td>FR</td><td>5843090.0</td></tr>
+<tr><td>163.0</td><td>Les Vacances de Monsieur Hulot</td><td>J. Tati</td><td>1953.0</td><td>FR</td><td>5799875.0</td></tr>
+<tr><td>164.0</td><td>Sissi face à son destin</td><td>E. Marischka</td><td>1958.0</td><td>AT</td><td>5794263.0</td></tr>
+<tr><td>165.0</td><td>Quatre mariages et un enterrement</td><td>M. Newell</td><td>1994.0</td><td>GB</td><td>5781268.0</td></tr>
+<tr><td>166.0</td><td>Mulan</td><td>T. Bancroft, B. Cook</td><td>1998.0</td><td>US</td><td>5776901.0</td></tr>
+<tr><td>167.0</td><td>Men in Black</td><td>B. Sonnenfeld</td><td>1997.0</td><td>US</td><td>5759617.0</td></tr>
+<tr><td>168.0</td><td>Le train sifflera trois fois</td><td>F. Zinnemann</td><td>1952.0</td><td>US</td><td>5756216.0</td></tr>
+<tr><td>169.0</td><td>Moi, moche et méchant 3</td><td>K. Balda, P. Coffin, E. Guillon</td><td>2017.0</td><td>US</td><td>5746829.0</td></tr>
+<tr><td>170.0</td><td>Grease</td><td>R. Kleiser</td><td>1978.0</td><td>US</td><td>5745596.0</td></tr>
+<tr><td>171.0</td><td>Les Indestructibles 2</td><td>B. Brad</td><td>2018.0</td><td>US</td><td>5744813.0</td></tr>
+<tr><td>172.0</td><td>Les Fous du stade</td><td>C. Zidi</td><td>1972.0</td><td>FR</td><td>5744270.0</td></tr>
+<tr><td>173.0</td><td>Le Troisième Homme</td><td>C. Reed</td><td>1949.0</td><td>GB</td><td>5742569.0</td></tr>
+<tr><td>174.0</td><td>Opération tonnerre</td><td>T. Young</td><td>1965.0</td><td>GB</td><td>5735506.0</td></tr>
+<tr><td>175.0</td><td>Andalousie</td><td>R. Vernay</td><td>1951.0</td><td>FR/ES</td><td>5735108.0</td></tr>
+<tr><td>176.0</td><td>Les Anges gardiens</td><td>J.M. Poiré</td><td>1995.0</td><td>FR</td><td>5734326.0</td></tr>
+<tr><td>177.0</td><td>Les Valseuses</td><td>B. Blier</td><td>1974.0</td><td>FR</td><td>5729042.0</td></tr>
+<tr><td>178.0</td><td>La Bataille du rail</td><td>R. Clément</td><td>1946.0</td><td>FR</td><td>5727974.0</td></tr>
+<tr><td>179.0</td><td>Lawrence d&apos;Arabie</td><td>D. Lean</td><td>1963.0</td><td>GB</td><td>5718291.0</td></tr>
+<tr><td>180.0</td><td>A nous les petites Anglaises</td><td>M. Lang</td><td>1976.0</td><td>FR</td><td>5704446.0</td></tr>
+<tr><td>181.0</td><td>La Vérité</td><td>H.G. Clouzot</td><td>1960.0</td><td>FR/IT</td><td>5701210.0</td></tr>
+<tr><td>182.0</td><td>Notre-Dame de Paris</td><td>J. Delannoy</td><td>1956.0</td><td>FR/IT</td><td>5700102.0</td></tr>
+<tr><td>183.0</td><td>Indiana Jones et le temple maudit</td><td>S. Spielberg</td><td>1984.0</td><td>US</td><td>5690878.0</td></tr>
+<tr><td>184.0</td><td>Les Tuche 3</td><td>O. Baroux</td><td>2018.0</td><td>FR</td><td>5687833.0</td></tr>
+<tr><td>185.0</td><td>Matrix Reloaded</td><td>L. Wachowski, A. Wachowski</td><td>2003.0</td><td>US</td><td>5672070.0</td></tr>
+<tr><td>186.0</td><td>Pirates des Caraïbes - jusqu&apos;au bout du monde</td><td>G. Verbinski</td><td>2007.0</td><td>US</td><td>5639260.0</td></tr>
+<tr><td>187.0</td><td>Pocahontas, une légende indienne</td><td>M. Gabriel, E. Goldberg</td><td>1995.0</td><td>US</td><td>5634513.0</td></tr>
+<tr><td>188.0</td><td>La Ch&apos;tite Famille</td><td>D. Boon</td><td>2018.0</td><td>FR</td><td>5630428.0</td></tr>
+<tr><td>189.0</td><td>Bons baisers de Russie</td><td>T. Young</td><td>1964.0</td><td>GB</td><td>5625125.0</td></tr>
+<tr><td>190.0</td><td>Star Wars : épisode 2 - l&apos;attaque des clones</td><td>G. Lucas</td><td>2002.0</td><td>US</td><td>5624277.0</td></tr>
+<tr><td>191.0</td><td>Le Petit Nicolas</td><td>L. Tirard</td><td>2009.0</td><td>FR/BE</td><td>5616187.0</td></tr>
+<tr><td>192.0</td><td>Joker</td><td>T. Phillips</td><td>2019.0</td><td>US</td><td>5611793.0</td></tr>
+<tr><td>193.0</td><td>Independence Day</td><td>R. Emmerich</td><td>1996.0</td><td>US</td><td>5606839.0</td></tr>
+<tr><td>194.0</td><td>Quai des Orfèvres</td><td>H.G. Clouzot</td><td>1947.0</td><td>FR</td><td>5582579.0</td></tr>
+<tr><td>195.0</td><td>La Folie des grandeurs</td><td>G. Oury</td><td>1971.0</td><td>FR/DE/ES</td><td>5568547.0</td></tr>
+<tr><td>196.0</td><td>Le Cerveau</td><td>G. Oury</td><td>1969.0</td><td>FR/IT</td><td>5548991.0</td></tr>
+<tr><td>197.0</td><td>Vaïana, la légende du bout du monde</td><td>J. Musker, R. Clements</td><td>2016.0</td><td>US</td><td>5548902.0</td></tr>
+<tr><td>198.0</td><td>Le Petit Baigneur</td><td>R. Dhéry</td><td>1968.0</td><td>FR/IT</td><td>5542856.0</td></tr>
+<tr><td>199.0</td><td>Shrek le troisième</td><td>C. Miller</td><td>2007.0</td><td>US</td><td>5536365.0</td></tr>
+<tr><td>200.0</td><td>Love Story</td><td>A. Hiller</td><td>1971.0</td><td>US</td><td>5512408.0</td></tr>
+<tr><td>1 AT : Autriche / AU : Australie / BE : Belgique / CH : Suisse / CZ : République Tchèque / DE : Allemagne / ES : Espagne / FR : France / GB : Royaume-Uni / IT : Italie / MX : Mexique / NZ : Nouvelle-Zélande / RU : Russie / US : Etats-Unis / ZA : Afrique du Sud.</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>2 Entrées cumulées de la sortie jusqu&apos;au 28 décembre 2021.</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Source : CNC.</td><td></td><td></td><td></td><td></td><td></td></tr>
 
-Et en voici un extrait après les modifications mentionnées plus haut sur OpenRefine :
 
 <meta charset= "utf-8" />
 <table width="600" height="450" frameborder ="0">
@@ -403,12 +610,12 @@ Et en voici un extrait après les modifications mentionnées plus haut sur OpenR
 
    **b. Grid of pie charts: Répartition par année des plus gros succès et de leur chiffres au box office**
    
-<iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='yes' style='width:100%;height:600px;'></iframe>
+<iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='yes' style='width:200%;height:1500px;'></iframe>
 
   
    **c. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
     
-<iframe src='https://public.flourish.studio/visualisation/12706313/embed' title='Vision globale des réalisateurs et des performances de leurs films' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe>
+<iframe src='https://public.flourish.studio/visualisation/12706313/embed' title='Vision globale des réalisateurs et des performances de leurs films' frameborder='0' scrolling='no' style='width:100%;height:800px;'></iframe>
 
   
    **d. Le Cinéma Français à l'international avec Wikidata Query Service**
