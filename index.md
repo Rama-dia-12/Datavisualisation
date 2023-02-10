@@ -5,15 +5,15 @@
 # Les meilleures audiences dans les salles de cinéma françaises
 ## *Cette présentation vise à montrer les scores d'audience réalisés par les 200 films les plus plébiscités dans les salles françaises, sur une période allant de 1945 à 2021*
 
-*Sommaire*
+**Sommaire**
 - Avant-Propos
 - 1)Jeu de données utilisé
 - 2)Visualisations
-  * 2) a.Scatter dots des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021
-  * 2) b.Grid of pie charts présntant une répartition par année des plus gros succès et de leur chiffres au box office
-  * 2) c.Area chart du nombre d'entrées cumulées par années
-  * 2) d.Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises
-  * 2) e.Wikidata Query Service
+  * a.Scatter dots des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021
+  * b.Grid of pie charts présntant une répartition par année des plus gros succès et de leur chiffres au box office
+  * c.Area chart du nombre d'entrées cumulées par années
+  * d.Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises
+  * e.Wikidata Query Service
 - Conclusion
 
 **Avant-Propos**
@@ -379,7 +379,7 @@ J'ai donc utilisé la fonction `value.datePart("year")` pour extraire et affiche
 Voici le jeu de données tel qu'il était en accès libre,
 puis en voici un extrait après les modifications mentionnées plus haut sur OpenRefine:
 
-<table width="600" height="450" frameborder ="0">
+<table width="600" height="400" frameborder ="0">
 <tr>
 <th>Mis à jour le 22 juin 2022</th>
 <tr><td>Les plus grands succès du cinéma depuis 1945</td><td></td><td></td><td></td><td></td><td></td></tr>
@@ -586,11 +586,11 @@ puis en voici un extrait après les modifications mentionnées plus haut sur Ope
 <tr><td>200.0</td><td>Love Story</td><td>A. Hiller</td><td>1971.0</td><td>US</td><td>5512408.0</td></tr>
 <tr><td>1 AT : Autriche / AU : Australie / BE : Belgique / CH : Suisse / CZ : République Tchèque / DE : Allemagne / ES : Espagne / FR : France / GB : Royaume-Uni / IT : Italie / MX : Mexique / NZ : Nouvelle-Zélande / RU : Russie / US : Etats-Unis / ZA : Afrique du Sud.</td><td></td><td></td><td></td><td></td><td></td></tr>
 <tr><td>2 Entrées cumulées de la sortie jusqu&apos;au 28 décembre 2021.</td><td></td><td></td><td></td><td></td><td></td></tr>
-<tr><td>Source : CNC.</td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td>Source : CNC.</td><td></td><td></td><td></td><td></td><td></td></tr></table>
 
 
 <meta charset= "utf-8" />
-<table width="600" height="450" frameborder ="0">
+<table width="600" height="400" frameborder ="0">
 <tr><th>Rang</th><th>Titre</th><th>réalisateur</th><th>année de sortie</th><th>nationalité</th><th>nombre d'entrées en millions</th></tr>
 <tr><td>1</td><td>Titanic</td><td>J. Cameron</td><td>1998</td><td>US</td><td>21798906</td></tr>
 <tr><td>2</td><td>Bienvenue chez les Ch&apos;tis</td><td>D. Boon</td><td>2008</td><td>FR</td><td>20444918</td></tr>
@@ -601,27 +601,32 @@ puis en voici un extrait après les modifications mentionnées plus haut sur Ope
 <tr><td>7</td><td>Le Livre de la jungle</td><td>W. Reitherman</td><td>1968</td><td>US</td><td>14798057</td></tr></table>
 
 
-
 **2) Visualisations**
 
-   **a. Scattered dots des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021**
+ 
+ **a. Scattered dots des scores réalisés par les films les plus populaires au cinéma en France de 1945 à 2021**
 
 <iframe src='https://public.flourish.studio/visualisation/12691863/embed' title='Score réalisés par les films les plus populaires au cinéma en France de 1945 à 2021' frameborder='0' scrolling='no' style='width:100%;height:450px;'></iframe>
 
-   **b. Pie charts: Répartition par année des plus gros succès et de leur chiffres au box office**
+ **b. Pie charts: Répartition par année des plus gros succès et de leur chiffres au box office**
+ 
    
 <iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='yes' style='width:100%;height:450px;'></iframe>
 
   
-   **c. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
+ 
+ **c. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
+ 
     
 <iframe src='https://public.flourish.studio/visualisation/12706313/embed' title='Vision globale des réalisateurs et des performances de leurs films' frameborder='0' scrolling='no' style='width:100%;height:800px;'></iframe>
 
   
-   **d. Le Cinéma Français à l'international avec Wikidata Query Service**
+
+**d. Le Cinéma Français à l'international avec Wikidata Query Service**
    
 L'analyse de ces données laisse clairement transparaître l'enthousiasme des français pour le grand écran, tant du côté des spectateurs que de celui des créateurs. Cependant, elle soulève également d'autres questions. On pourrait par exemple se demander ce qu'il en est du succès - ou non - du cinéma français contemporain à l'international, en compaaison avec les autres pays. Pour obtenir des données pertinentes à ce sujet, il a fallu interroger la base de données Wikidata. J'ai formulé la requête suivante :
-```SPARQL
+
+ ```SPARQL
 
 #création de colonnes qui renseignent : le pays d'origine, les chiffres au box office, ainsi que les noms de ces films
 SELECT DISTINCT ?item ?origincountry ?boxoffice ?name  WHERE {
@@ -641,13 +646,12 @@ SELECT DISTINCT ?item ?origincountry ?boxoffice ?name  WHERE {
 ORDER BY ?boxoffice #limitation de la requête aux films sortis depuis le début de l'année 2022, dont on veut le titre en français
 
 ```
-J'ai ainsi pu obtenir les données suivantes :
+
+ J'ai ainsi pu obtenir les données suivantes :
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23%20cr%C3%A9ation%20de%20colonnes%20qui%20renseignent%20%3A%20le%20pays%20d%27origine%2C%20les%20chiffres%20au%20box%20office%2C%20ainsi%20que%20les%20noms%20de%20ces%20films%0ASELECT%20DISTINCT%20%3Fitem%20%3Forigincountry%20%3Fboxoffice%20%3Fname%20%20WHERE%20%7B%0A%20%20%3Fitem%20rdfs%3Alabel%20%3Fname%3B%0A%20%20%20%20%20%20%20%20wdt%3AP31%20wd%3AQ11424%3B%20%23%20d%C3%A9claration%20des%20titres%20comme%20%C3%A9tant%20de%20nature%20%22film%22%0A%20%20%20%20%20%20%20%20wdt%3AP577%20%3Fpublication_date%3B%20%23%20indication%20de%20leur%20date%20de%20publication%0A%20%20%20%20%20%20%20%20wdt%3AP2142%20%3Fboxoffice.%20%23%20indication%20de%20leurs%20chiffres%20au%20box%20office%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fitem%20wdt%3AP495%20%3FQorigincountry.%20%23%20affichage%20du%20nom%20du%20pays%20d%27origine%0A%20%20%20%20%3FQorigincountry%20rdfs%3Alabel%20%3Forigincountry.%0A%20%20%20%20FILTER%28%28LANG%28%3Forigincountry%29%29%20%3D%20%22fr%22%29%20%23%20en%20fran%C3%A7ais%20%20%0A%20%20%7D%0A%23%20limitation%20de%20la%20requ%C3%AAte%20aux%20films%20sortis%20depuis%20le%20d%C3%A9but%20de%20l%27ann%C3%A9e%202022%2C%20dont%20on%20veut%20le%20titre%20en%20fran%C3%A7ais%20%20%20%20%20%20%20%20%0A%20%20FILTER%28xsd%3Adate%28%3Fpublication_date%29%20%3E%20%222022-01-01%22%5E%5Exsd%3Adate%29%0A%20%20FILTER%20%28%20lang%28%3Fname%29%20%3D%20%22fr%22%29%0A%20%7D%0AORDER%20BY%20%3Fboxoffice%20%23%20classement%20par%20chiffre%20r%C3%A9alis%C3%A9%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 
 La visualisation en bar chart laisse transparaître la dominance écrasante des Etats-Unis sur le marché du cinéma, dont les recettes totales des films de 2022 au box office s'élèvent à plus de 22 milliards de dollars. Le box office des films français se classent néanmoins à la cinquième place ; mais avec une différence abyssale, en s'élevant à moins d'un milliard de dollars. Après étude de cette visualisation, on peut émettre certaines hypothèses ; en effet, les pays qui sont avant la France au classement sont les Etats-Unis, le Royaume-Uni, la Chine et l'Australie. Trois d'entre eux ont la même langue, l'anglais, qui est la deuxième la plus utilisée au monde, tandis que le chinois est la langue la plus parlée au monde. Ce facteur explique assurèment les succès des films de ces pays.
-
-
 
 
 
