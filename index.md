@@ -608,9 +608,9 @@ puis en voici un extrait après les modifications mentionnées plus haut sur Ope
 
 <iframe src='https://public.flourish.studio/visualisation/12691863/embed' title='Score réalisés par les films les plus populaires au cinéma en France de 1945 à 2021' frameborder='0' scrolling='no' style='width:100%;height:450px;'></iframe>
 
-   **b. Grid of pie charts: Répartition par année des plus gros succès et de leur chiffres au box office**
+   **b. Pie charts: Répartition par année des plus gros succès et de leur chiffres au box office**
    
-<iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='yes' style='width:100%;height:600px;'></iframe>
+<iframe src='https://public.flourish.studio/visualisation/12692271/embed' title='Répartition par année des plus gros succès et de leur chiffres au box office' frameborder='0' scrolling='yes' style='width:100%;height:450px;'></iframe>
 
   
    **c. Réalisateurs ayant comptabilisé le plus d'entrées dans les salles françaises**
